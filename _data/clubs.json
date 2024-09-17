@@ -1,0 +1,82 @@
+[
+	{
+		"name": "Manchester United",
+		"shortName": "MUN"
+	},
+	{
+		"name": "Liverpool",
+		"shortName": "LIV"
+	},
+	{
+		"name": "Chelsea",
+		"shortName": "CHE"
+	},
+	{
+		"name": "Arsenal",
+		"shortName": "ARS"
+	},
+	{
+		"name": "Everton",
+		"shortName": "EVE"
+	},
+	{
+		"name": "Aston Villa",
+		"shortName": "AVL"
+	},
+	{
+		"name": "Fulham",
+		"shortName": "FUL"
+	},
+	{
+		"name": "Tottenham Hotspur",
+		"shortName": "TOT"
+	},
+	{
+		"name": "West Ham United",
+		"shortName": "WHU"
+	},
+	{
+		"name": "Manchester City",
+		"shortName": "MCI"
+	},
+	{
+		"name": "Wigan Athletic",
+		"shortName": "WIG"
+	},
+	{
+		"name": "Stoke City",
+		"shortName": "STO"
+	},
+	{
+		"name": "Bolton Wanderers",
+		"shortName": "BOL"
+	},
+	{
+		"name": "Portsmouth",
+		"shortName": "POR"
+	},
+	{
+		"name": "Blackburn Rovers",
+		"shortName": "BBR"
+	},
+	{
+		"name": "Sunderland",
+		"shortName": "SUN"
+	},
+	{
+		"name": "Hull City",
+		"shortName": "HUL"
+	},
+	{
+		"name": "Newcastle United",
+		"shortName": "NEW"
+	},
+	{
+		"name": "Middlesbrough",
+		"shortName": "MID"
+	},
+	{
+		"name": "West Bromwich Albion",
+		"shortName": "MNU"
+	}
+]
