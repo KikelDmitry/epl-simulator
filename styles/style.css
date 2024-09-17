@@ -1,1 +1,14 @@
 /* resets */
+
+body {
+	background-color: #000;
+	color: #fff;
+}
+
+table {
+	border-spacing: 10px;
+}
+
+th {
+	text-align: left;
+}
