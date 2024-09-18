@@ -1,18 +1,15 @@
 [
 	{
 		"name": "Manchester United",
-		"shortName": "MUN",
-		"points": 20
+		"shortName": "MUN"
 	},
 	{
 		"name": "Liverpool",
-		"shortName": "LIV",
-		"points": 40
+		"shortName": "LIV"
 	},
 	{
 		"name": "Chelsea",
-		"shortName": "CHE",
-		"points": 42
+		"shortName": "CHE"
 	},
 	{
 		"name": "Arsenal",
@@ -37,8 +34,7 @@
 	},
 	{
 		"name": "West Ham United",
-		"shortName": "WHU",
-		"points": 24
+		"shortName": "WHU"
 	},
 	{
 		"name": "Manchester City",
