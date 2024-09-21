@@ -46,8 +46,6 @@ const startSeason = async () => {
   const schedule = new Calendar(teams).schedule();
   // play matches
   // show results
-
-  console.log(schedule);
   
 };
 

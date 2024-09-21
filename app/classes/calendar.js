@@ -5,64 +5,39 @@ export class Calendar {
     this.teams = teams;
     this.season = new Array(2); // 2 rounds
     this.round = new Array(this.teams.length - 1); // 19 tours
-    this.tour = new Array(this.teams.length / 2); // 10 matches
-    this.match = new Array(2); // 2 teams
-    this.matchesAmount = 0;
+    this.tour = []; // 10 matches
+    this.match = []; // 2 teams
   }
   createMatch() {
-    for (let i = 0; i < teams.length; i++) {
-      this.match.push();
+    const pair = [];
+
+    for (let i = 0; i < 2; i++) {
+      const randomTeam = randNum(0, this.teams.length - 1);
+      pair.push(this.teams[randomTeam]);
+      this.teams.splice(randomTeam, 1);
     }
+
+    this.match = pair;
   }
 
-  createTour() {}
+  createTour() {
+    for (let i = 0; i < 10; i++) {
+      this.createMatch();
+      this.tour.push(this.match);
+    }
+  }
   createRound() {}
   createSchedule() {}
 
-  
-  schedule() {
-    this.season.push(this.round);
-    console.log(this.season);
+  comparePair(pair) {
+    if (!Array.isArray(pair)) throw new Error("pair should be an Array");
+    pair[0].shortName === pair[1].shortName ? true : false;
   }
-  // schedule() {
-  //   const teams = this.teams;
-  //   const season = [];
-  //   console.log(this.teams);
-  //   // creating rounds (2)
-  //   for (let r = 0; r < 2; r++) {
-  //     const round = [];
-  //     for (let t = 0; t < teams.length - 1; t++) {
-  //       const tour = [];
-  //       for (let i = 0; i < teams.length / 2; i++) {
-  //         const match = [teams[i], teams[i + 1]];
-  //         tour.push(match);
-  //       }
-  //       round.push(tour);
-  //     }
-  //     season.push(round);
-  //   }
-  //   console.log(season);
-  //   console.log("matches: ", this.matchesAmount);
-  // }
+  schedule() {
+    this.createTour();
+    console.log(this.tour);
+  }
 }
-// for (let t1 = 0; t1 < teams.length; t1++) {
-//   for (let t2 = 0; t2 < teams.length; t2++) {
-//     if (t1 !== t2) {
-//       this.matchesAmount++;
-//       const match = [teams[t1], teams[t2]];
-//       tour.push(match);
-//     } else {
-//       continue;
-//     }
-//   }
-// }
-
-// const teams = [
-// 	{
-// 		name: "Manchester",
-// 		short: "MUN",
-// 	}
-// ]
 
 // const schedule = [
 //   // first round
