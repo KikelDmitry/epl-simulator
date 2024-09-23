@@ -1,7 +1,7 @@
 export class Club {
-	constructor(name, shortName, strength) {
+	constructor(name, alias, strength) {
 		this.name = name;
-		this.shortName = shortName;
+		this.alias = alias;
 		this.strength = strength;
 		this.position = null;
 		this.played = 0;

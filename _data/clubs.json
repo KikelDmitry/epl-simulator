@@ -1,83 +1,83 @@
 [
 	{
 		"name": "Manchester United",
-		"shortName": "MUN"
+		"alias": "MUN"
 	},
 	{
 		"name": "Liverpool",
-		"shortName": "LIV"
+		"alias": "LIV"
 	},
 	{
 		"name": "Chelsea",
-		"shortName": "CHE"
+		"alias": "CHE"
 	},
 	{
 		"name": "Arsenal",
-		"shortName": "ARS"
+		"alias": "ARS"
 		
 	},
 	{
 		"name": "Everton",
-		"shortName": "EVE"
+		"alias": "EVE"
 	},
 	{
 		"name": "Aston Villa",
-		"shortName": "AVL"
+		"alias": "AVL"
 	},
 	{
 		"name": "Fulham",
-		"shortName": "FUL"
+		"alias": "FUL"
 	},
 	{
 		"name": "Tottenham Hotspur",
-		"shortName": "TOT"
+		"alias": "TOT"
 	},
 	{
 		"name": "West Ham United",
-		"shortName": "WHU"
+		"alias": "WHU"
 	},
 	{
 		"name": "Manchester City",
-		"shortName": "MCI"
+		"alias": "MCI"
 	},
 	{
 		"name": "Wigan Athletic",
-		"shortName": "WIG"
+		"alias": "WIG"
 	},
 	{
 		"name": "Stoke City",
-		"shortName": "STO"
+		"alias": "STO"
 	},
 	{
 		"name": "Bolton Wanderers",
-		"shortName": "BOL"
+		"alias": "BOL"
 	},
 	{
 		"name": "Portsmouth",
-		"shortName": "POR"
+		"alias": "POR"
 	},
 	{
 		"name": "Blackburn Rovers",
-		"shortName": "BBR"
+		"alias": "BBR"
 	},
 	{
 		"name": "Sunderland",
-		"shortName": "SUN"
+		"alias": "SUN"
 	},
 	{
 		"name": "Hull City",
-		"shortName": "HUL"
+		"alias": "HUL"
 	},
 	{
 		"name": "Newcastle United",
-		"shortName": "NEW"
+		"alias": "NEW"
 	},
 	{
 		"name": "Middlesbrough",
-		"shortName": "MID"
+		"alias": "MID"
 	},
 	{
 		"name": "West Bromwich Albion",
-		"shortName": "WBA"
+		"alias": "WBA"
 	}
 ]

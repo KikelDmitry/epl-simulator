@@ -13,37 +13,20 @@ export class Calendar {
       }
     }
   }
-  createTable() {
-    for (let i = 0; i < this.teams.length - 1; i++) {
-      for (let j = 0; j < this.season.length; j++) {
-                
-      }      
-    }
+
+  createTour() {
+    
   }
 
   schedule() {
     this.createAllMatches();
+    this.createTour();
     console.log(this.matches);
   }
 }
 
-// const schedule = [
-//   // first round
-//   [
-//     //first tour
-//     [
-//       [team1, team2],
-//       [team3, team4],
-//     ],
-//     //second tour
-//     [
-//       [team1, team2],
-//       [team3, team4],
-//     ],
-//   ],
-//   // second round
-//   [
-//     [team3, team1],
-//     [team4, team7],
-//   ],
-// ];
+// match data format
+const match = {
+  date: "19.08",
+  teams: [],
+};
