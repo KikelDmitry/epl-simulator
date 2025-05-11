@@ -1,82 +1,102 @@
 [
 	{
 		"name": "Manchester United",
-		"alias": "MUN"
+		"alias": "MUN",
+		"logo": "manutd.svg"
 	},
 	{
 		"name": "Liverpool",
-		"alias": "LIV"
+		"alias": "LIV",
+		"logo": "liverpool.svg"
 	},
 	{
 		"name": "Chelsea",
-		"alias": "CHE"
+		"alias": "CHE",
+		"logo": "chelsea.svg"
 	},
 	{
 		"name": "Arsenal",
-		"alias": "ARS"
+		"alias": "ARS",
+		"logo": "arsenal.svg"
 	},
 	{
 		"name": "Everton",
-		"alias": "EVE"
+		"alias": "EVE",
+		"logo": "everton.svg"
 	},
 	{
 		"name": "Aston Villa",
-		"alias": "AVL"
+		"alias": "AVL",
+		"logo": "avilla.svg"
 	},
 	{
 		"name": "Fulham",
-		"alias": "FUL"
+		"alias": "FUL",
+		"logo": "fulham.svg"
 	},
 	{
 		"name": "Tottenham Hotspur",
-		"alias": "TOT"
+		"alias": "TOT",
+		"logo": "tottenham.svg"
 	},
 	{
 		"name": "West Ham United",
-		"alias": "WHU"
+		"alias": "WHU",
+		"logo": "westham.svg"
 	},
 	{
 		"name": "Manchester City",
-		"alias": "MCI"
+		"alias": "MCI",
+		"logo": "mancity.svg"
 	},
 	{
 		"name": "Wigan Athletic",
-		"alias": "WIG"
+		"alias": "WIG",
+		"logo": "wigan.svg"
 	},
 	{
 		"name": "Stoke City",
-		"alias": "STO"
+		"alias": "STO",
+		"logo": "stoke.svg"
 	},
 	{
 		"name": "Bolton Wanderers",
-		"alias": "BOL"
+		"alias": "BOL",
+		"logo": "bolton.svg"
 	},
 	{
 		"name": "Portsmouth",
-		"alias": "POR"
+		"alias": "POR",
+		"logo": "portsmouth.svg"
 	},
 	{
 		"name": "Blackburn Rovers",
-		"alias": "BBR"
+		"alias": "BBR",
+		"logo": "blackburn.svg"
 	},
 	{
 		"name": "Sunderland",
-		"alias": "SUN"
+		"alias": "SUN",
+		"logo": "sunderland.svg"
 	},
 	{
 		"name": "Hull City",
-		"alias": "HUL"
+		"alias": "HUL",
+		"logo": "hullcity.svg"
 	},
 	{
 		"name": "Newcastle United",
-		"alias": "NEW"
+		"alias": "NEW",
+		"logo": "newcastle.svg"
 	},
 	{
 		"name": "Middlesbrough",
-		"alias": "MID"
+		"alias": "MID",
+		"logo": "middlesbrough.svg"
 	},
 	{
 		"name": "West Bromwich Albion",
-		"alias": "WBA"
+		"alias": "WBA",
+		"logo": "westbromwich.svg"
 	}
 ]
